@@ -1,0 +1,135 @@
+body{
+  background-color: #3385ff;
+}
+.App{
+  background-color: white;
+  margin-top: 2px;
+}
+.bkcolor{
+  background-color: #F5F5F5;
+}
+.container{
+    width: 100%; 
+    display: table;
+}
+.fixed{
+  width: 70%;
+  display: table-cell;
+}
+.flex-item{
+  width: 30%;
+    display: table-cell;
+    text-align: right; 
+}
+.cashHeader{
+  padding-top: 3px;
+  text-align: right; 
+  margin-right: 2px;
+}
+.accountHeader{
+  margin-left: 5px;
+}
+.percentHeader{
+  font-size: 11px;
+  font-weight: bold;
+  color: #989898;
+  float: right;
+  margin-right: 6px;
+  
+ }
+.line{
+  border-bottom: 1px solid  #B0B0B0;
+  padding-bottom: 2px; 
+}
+.accountHeader,.cashHeader,.headerButtons{
+  color: #595959;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  }
+
+.upArrow{
+  min-width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+   background-color: transparent; 
+  background-image: url('./icons/arrow-up.svg');
+ background-size: 10px 10px;
+box-shadow: none;  
+  border: 0 none transparent;
+}
+.upArrow:focus{
+outline: 0;
+}
+
+.headerButtons{
+  border: none;
+  background: none;
+  padding-top: 3px;
+  text-align: right;
+  padding-bottom: 3px;
+ 
+}
+.accountDetails{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.downArrow{
+  min-width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url('./icons/arrow-down.svg');   
+ background-size: 10px 10px;
+box-shadow: none;  
+border: 0 none transparent;
+}
+.downArrow:focus{
+outline: 0;
+}
+
+.list-spacing{
+  margin: 0px 0px 4px 0px ;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.detailsList{
+  border-bottom: 1px solid #D8D8D8;
+  border-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3385ff;
+  padding: 10px  0px 10px 0px; 
+  list-style-type: none;
+}
+.cashPosition{
+  text-align:right;
+  float: right;
+color: #404040;
+}
+.percentPosition{
+  float: right;
+    font-size: 11px;
+  margin-bottom: 2px;
+ }
+.percentRed{
+  color: #ff4d88;
+}
+.percentGray{
+  color: #989898;
+}
+.percentGreen{
+  color: #008000;
+}
+
+.button{
+  text-align: center;
+}
+input[type=submit]{
+  background: none;
+  border: none;
+  color:  #3385ff;
+  font-weight: bold;
+  position:relative;
+  padding: 14px 0px 14px 0px;
+}
