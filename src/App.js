@@ -38,7 +38,12 @@ this.setState({records: 4});
    var x=document.getElementById("button");
    x.parentNode.removeChild(x);
   }
-  
+  showTt=()=>
+  {
+this.setState({records: 5});
+
+  }
+
   sorting=(criteria)=>{
     var newData = [];
     var newSortOrder = (this.state.sortOrder=="ascend" ? "descend" : "ascend");
