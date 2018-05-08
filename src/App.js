@@ -27,6 +27,11 @@ class App extends Component {
     })})
   })
   };
+  showTest=()=>
+  {
+this.setState({records: 4});
+
+  }
 
   showMore=()=>{
    this.setState({records: this.state.data.length});
